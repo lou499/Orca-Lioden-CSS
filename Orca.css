@@ -28,17 +28,19 @@ a:hover {
   text-shadow: 0 0 8px rgba(115,217,255,.7);
 }
 
+#main,
+.main,
+.container.main,
+div.container.main,
+.col-md-9,
+.col-md-9.col-xs-12,
+.col-md-3,
+.sidebar {
+  background: transparent !important;
+}
+
 #main {
-  background: transparent !important;
   border-color: #28566a !important;
-}
-
-.col-md-9.col-xs-12 {
-  background: transparent !important;
-}
-
-div.container.main {
-  background: transparent !important;
 }
 
 .boxcontainer,
@@ -54,4 +56,147 @@ div.container.main {
 }
 
 .scrollBox {
-  background: rgba(7,18,27,.78) !
+  background: rgba(7,18,27,.78) !important;
+  border-color: #28566a !important;
+  border-radius: 12px !important;
+  color: #d9f4ff !important;
+}
+
+h1, h2, h3, h4 {
+  color: #9eeaff !important;
+  font-family: "Times New Roman", serif !important;
+  letter-spacing: 1px;
+  text-shadow: 0 0 10px rgba(100,220,255,.28);
+}
+
+.credit3 {
+  opacity: .65;
+  font-size: 11px;
+}
+
+.credit3 a {
+  color: #8ccfe5 !important;
+}
+
+@media (max-width: 700px) {
+  .boxcontainer,
+  .Box3 {
+    margin-left: 3% !important;
+    margin-right: 3% !important;
+  }
+}
+
+
+/* ORCA — LIODEN UI */
+
+.navbar,
+.navbar-default,
+.topbar {
+  background: rgba(10,13,20,.94) !important;
+  border-color: #28566a !important;
+}
+
+.navbar li a,
+.navbar-default .navbar-nav > li > a {
+  color: #d9f4ff !important;
+}
+
+.breadcrumb {
+  background: rgba(5,23,35,.90) !important;
+  color: #d9f4ff !important;
+  border-color: #28566a !important;
+}
+
+.panel,
+.panel-default,
+.sidebar,
+.feature,
+.cave-grid,
+.beetle-grid {
+  background: rgba(5,23,35,.90) !important;
+  color: #d9f4ff !important;
+  border-color: #28566a !important;
+}
+
+.panel-heading {
+  background: rgba(7,35,50,.95) !important;
+  color: #9eeaff !important;
+  border-color: #28566a !important;
+}
+
+.panel-body {
+  background: rgba(5,23,35,.90) !important;
+  color: #d9f4ff !important;
+}
+
+
+/* CHAT */
+
+#chatMessageContainer {
+  background: transparent !important;
+  border-color: #28566a !important;
+}
+
+.s-chat-message:nth-child(odd),
+.s-chat-message:nth-child(even),
+.s-chat-message__pinned {
+  background: rgba(5,23,35,.92) !important;
+  color: #d9f4ff !important;
+  border-color: #28566a !important;
+}
+
+.s-chat-message_timestamp {
+  color: #8ccfe5 !important;
+}
+
+button#label_currentChannel {
+  background: rgba(7,35,50,.95) !important;
+  color: #9eeaff !important;
+  border-color: #28566a !important;
+}
+
+
+/* ORCA — CHAT TEXT */
+
+.s-chat-message,
+.s-chat-message:nth-child(odd),
+.s-chat-message:nth-child(even),
+.s-chat-message__pinned {
+  color: #e9fbff !important;
+}
+
+
+/* ORCA — ALERTS & TABLES */
+
+.alert-success,
+.alert-danger,
+.attack-won,
+.attack-lost {
+  background: rgba(5,23,35,.92) !important;
+  color: #e9fbff !important;
+  border: 1px solid #28566a !important;
+}
+
+.top,
+th,
+.bottom,
+.left {
+  background: rgba(7,35,50,.95) !important;
+  color: #9eeaff !important;
+  border-color: #28566a !important;
+}
+
+td {
+  background: rgba(10,18,27,.88) !important;
+  color: #d9f4ff !important;
+  border-color: #21495c !important;
+}
+
+.s-chat-message a,
+.s-chat-message a:visited {
+  color: #73d9ff !important;
+}
+
+.s-chat-message_timestamp {
+  color: #8ccfe5 !important;
+}
