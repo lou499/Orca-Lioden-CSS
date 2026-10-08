@@ -1,1 +1,262 @@
+/* =========================================
+ORCA — DARK OCEAN
+Custom Lioden CSS
+========================================= */
 
+/* =========================================
+REMOVE LIODEN'S CREAM BACKGROUNDS
+========================================= */
+
+html,
+body,
+#main,
+.container,
+.container-fluid,
+.row,
+.col-md-12,
+.col-md-9,
+.col-md-8,
+.col-md-6,
+.col-md-4,
+.col-md-3 {
+background-color: #02080d !important;
+}
+
+/* =========================================
+KEEP THE OCEAN BACKGROUND VISIBLE
+========================================= */
+
+body {
+background-color: #02080d !important;
+background-image: url("https://i.ibb.co/1fzDBNsF/file-00000000abfc8210ab151fac921113e7.png") !important;
+background-position: center center !important;
+background-attachment: fixed !important;
+background-size: cover !important;
+background-repeat: no-repeat !important;
+
+color: #d9f4ff !important;
+font-family: "Times New Roman", serif !important;
+}
+
+/* =========================================
+TRANSPARENT MAIN CONTAINERS
+========================================= */
+
+#main {
+background-color: transparent !important;
+border-color: #28566a !important;
+}
+
+div.container.main {
+background-color: transparent !important;
+}
+
+.col-md-9.col-xs-12 {
+background-color: transparent !important;
+}
+
+/* =========================================
+MAIN LIODEN BOXES
+========================================= */
+
+.boxcontainer,
+.Box3 {
+background: linear-gradient(
+145deg,
+rgba(5, 25, 38, .97),
+rgba(2, 12, 22, .97)
+) !important;
+
+border: 1px solid #28627a !important;
+border-radius: 10px !important;
+
+box-shadow:
+0 0 0 1px rgba(100, 210, 240, .05),
+0 8px 28px rgba(0, 0, 0, .60),
+inset 0 0 24px rgba(40, 150, 190, .06) !important;
+
+color: #d9f4ff !important;
+}
+
+/* =========================================
+PANELS / SIDE BOXES
+========================================= */
+
+.panel,
+.panel-default,
+.sidebar,
+.feature,
+.cave-grid,
+.beetle-grid {
+background: rgba(5, 23, 35, .94) !important;
+color: #d9f4ff !important;
+border-color: #28566a !important;
+}
+
+.panel-heading {
+background: rgba(7, 35, 50, .97) !important;
+color: #9eeaff !important;
+border-color: #28627a !important;
+}
+
+.panel-body {
+background: rgba(5, 23, 35, .94) !important;
+color: #d9f4ff !important;
+}
+
+/* =========================================
+NAVIGATION
+========================================= */
+
+.navbar,
+.navbar-default,
+.topbar {
+background: rgba(2, 13, 24, .96) !important;
+border-color: #28566a !important;
+}
+
+.navbar li a,
+.navbar-default .navbar-nav > li > a {
+color: #d9f4ff !important;
+}
+
+.navbar li a:hover,
+.navbar-default .navbar-nav > li > a:hover {
+background: rgba(15, 80, 105, .65) !important;
+color: #ffffff !important;
+}
+
+/* =========================================
+BREADCRUMBS
+========================================= */
+
+.breadcrumb {
+background: rgba(5, 23, 35, .94) !important;
+color: #d9f4ff !important;
+border-color: #28566a !important;
+}
+
+/* =========================================
+HEADINGS
+========================================= */
+
+h1,
+h2,
+h3,
+h4 {
+color: #9eeaff !important;
+font-family: "Times New Roman", serif !important;
+letter-spacing: 1px;
+text-shadow: 0 0 10px rgba(100, 220, 255, .30);
+}
+
+/* =========================================
+LINKS
+========================================= */
+
+a {
+color: #73d9ff !important;
+}
+
+a:hover {
+color: #ffffff !important;
+text-shadow: 0 0 8px rgba(115, 217, 255, .7);
+}
+
+/* =========================================
+TABLES
+========================================= */
+
+.top,
+th,
+.bottom,
+.left {
+background: rgba(7, 35, 50, .97) !important;
+color: #9eeaff !important;
+border-color: #28566a !important;
+}
+
+td {
+background: rgba(3, 17, 28, .94) !important;
+color: #d9f4ff !important;
+border-color: #21495c !important;
+}
+
+/* =========================================
+ALERTS
+========================================= */
+
+.alert-success,
+.alert-danger,
+.attack-won,
+.attack-lost {
+background: rgba(5, 23, 35, .94) !important;
+color: #d9f4ff !important;
+border: 1px solid #28566a !important;
+}
+
+/* =========================================
+CHAT
+========================================= */
+
+#chatMessageContainer {
+background: transparent !important;
+border-color: #28566a !important;
+}
+
+.s-chat-message,
+.s-chat-message:nth-child(odd),
+.s-chat-message:nth-child(even),
+.s-chat-message__pinned {
+background: rgba(5, 23, 35, .94) !important;
+color: #d9f4ff !important;
+border-color: #21495c !important;
+}
+
+.s-chat-message a,
+.s-chat-message a:visited {
+color: #73d9ff !important;
+}
+
+.s-chat-message_timestamp {
+color: #8ccfe5 !important;
+}
+
+button#label_currentChannel {
+background: rgba(7, 35, 50, .97) !important;
+color: #9eeaff !important;
+border-color: #28566a !important;
+}
+
+/* =========================================
+BUTTONS
+========================================= */
+
+input[type="button"],
+input[type="submit"] {
+background: #06354a !important;
+border: 1px solid #3bb9df !important;
+color: #e9fbff !important;
+}
+
+input[type="button"]:hover,
+input[type="submit"]:hover {
+background: #0a506b !important;
+color: #ffffff !important;
+}
+
+/* =========================================
+MOBILE
+========================================= */
+
+@media (max-width: 700px) {
+
+body {
+background-image: url("https://i.ibb.co/1fzDBNsF/file-00000000abfc8210ab151fac921113e7.png") !important;
+background-position: center center !important;
+background-attachment: fixed !important;
+background-size: cover !important;
+background-repeat: no-repeat !important;
+}
+
+}
